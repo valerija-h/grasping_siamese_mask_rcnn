@@ -21,6 +21,8 @@ To train and evaluate a GSMR-CNN model, you can follow the notebooks provided. I
 - [generate_COCO.py](gsmrcnn/generate_COCO.py) - file for creating a JSON annotation file (in COCO format) from the OCID grasp dataset.
 
 ## Setting Up
+> This section is still under progress and will be completed soon.
+
 This directory does not provide the dataset, pre-trained weights and libraries needed to run the scripts. Instructions have been provided below to install these components. First, start by cloning the repository, unzipping it and navgiating into it.
 ```
 git clone 
