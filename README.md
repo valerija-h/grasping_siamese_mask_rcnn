@@ -1,15 +1,10 @@
 # Grasping Siamese Mask R-CNN (GSMR-CNN)
 
-<img align="right" src="assets/system.png" width="390">
+<img align="right" src="assets/system.png" width="30%">
 
 This repository contains the code implementation for the GSMR-CNN model from the ICRA23 paper "GSMR-CNN: An End-to-End Trainable Architecture for Grasping Target Objects from Multi-Object Scenes". The Grasping Siamese Mask R-CNN (GSMR-CNN) is an extension of the __[Siamese Mask R-CNN](https://github.com/bethgelab/siamese-mask-rcnn)__ that adds an additional branch for grasp detection. 
 
 GSMR-CNN takes as input both an RGB image of a multi-object scene and an RGB image of the target object (e.g. pepper) to be located and grasped. The model then finds and outputs all instances of the target object in the scene with a corresponding bounding box, segmentation mask and a 2D antipodal grasp for each instance. The inherent SNN properties enable the proposed model to generalize and recognize new object categories that were not present during training, whilst the end-to-end architecture allows the model to identify target objects with a suitable grasp simultaneously.
-
-Below is an example prediction from GSMR-CNN trying to locate and predicts grasps on mugs within a multi-object scene.
-<p align="center">
-  <img src="assets/prediction_mug.png" width="800">
- </p>
 
 ## Getting Started
 To train and evaluate a GSMR-CNN model, you can follow the notebooks provided. It is recommended you read the set-up instructions below to install any necessary libraries, models, datasets and generate annotations. Additionally, here is an overview of the files included:
@@ -66,6 +61,12 @@ Below are details of the system used to train the models;
 - CPU: 11th Gen Intel(R) Core(TM) i9-11900 @ 2.50GHz
 - GPU: NVIDIA GeForce RTX 3070
 - GCC: 7.5.0
+
+## Visualizing Results
+Below is an example prediction from GSMR-CNN trying to locate and predicts grasps on mugs within a multi-object scene.
+<p align="center">
+  <img src="assets/prediction_mug.png" width="800">
+ </p>
 
 ## References
 If using our method for your research, please cite:
