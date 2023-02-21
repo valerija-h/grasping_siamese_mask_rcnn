@@ -73,8 +73,10 @@ If using our method for your research, please cite:
 @inproceedings{holomjova2023gsmrcnn,
   title={GSMR-CNN: An End-to-End Trainable Architecture for Grasping Target Objects from Multi-Object Scenes},
   author={Holomjova, Valerija and Starkey, Andrew Joe and Meißner, Pascal},
-  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
   year={2023}
+  pages={}
+}
 ```
 
 Our model is built upon the implementations of __[Mask R-CNN](https://github.com/matterport/Mask_RCNN)__ and __[Siamese Mask R-CNN](https://github.com/bethgelab/siamese-mask-rcnn)__:
