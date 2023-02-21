@@ -53,7 +53,9 @@ python generate_COCO.py
 
 
 ## Requirements and System Specifications
-This library was built using Python 3.7 and Tensorflow 1.14. The [requirements.txt](requirements.txt) file contains the recommended version of each library to avoid compatibility errors. It is possible that other Python and library versions could work as well, however, these are the versions that were used to build and train the models. It is important to consider that the [Mask R_CNN library](https://github.com/matterport/Mask_RCNN) does not currently support Tensorflow 2.0.
+This library was built using Python 3.7 and Tensorflow 1.14. The [requirements.txt](requirements.txt) file contains the recommended version of each library to avoid compatibility errors. It is possible that other Python and library versions could work as well, however, these are the versions that were used to build and train the models. 
+
+> It is important to consider that the [Mask R_CNN library](https://github.com/matterport/Mask_RCNN) does not currently support Tensorflow 2.0.
 
 Below are details of the system used to train the models;
 - OS: Linux
