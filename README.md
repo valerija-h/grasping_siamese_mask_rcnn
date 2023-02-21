@@ -100,7 +100,7 @@ Our model is built upon the implementations of __[Mask R-CNN](https://github.com
 }
 ```
 
-If using the dataset extension, please cite:
+If using the OCID grasp dataset extension, please cite:
 ```bibtex
 @inproceedings{ainetter2021end,
   title={End-to-end Trainable Deep Neural Network for Robotic Grasp Detection and Semantic Segmentation from RGB},
