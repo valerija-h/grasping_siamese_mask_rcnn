@@ -74,7 +74,7 @@ If using our method for your research, please cite:
   title={GSMR-CNN: An End-to-End Trainable Architecture for Grasping Target Objects from Multi-Object Scenes},
   author={Holomjova, Valerija and Starkey, Andrew Joe and Meißner, Pascal},
   booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
-  year={2023}
+  year={2023},
   pages={}
 }
 ```
